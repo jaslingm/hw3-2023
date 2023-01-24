@@ -1,0 +1,104 @@
+/* #3 Style the body of the page */
+body{
+    font-family: Arial, Verdana;
+    background: #000000;
+    color: #FFFFFF;
+	margin: 20px top left right; /*idk*/
+}
+/* #4 Style the h1 heading */
+h1{
+	text-align: center;
+    font-size: 40px;
+    padding: 15px;
+}
+
+/* #5 Style the h2 heading */
+h2{
+	font-size: 30px; 
+	color: #0D0D0D;
+}
+
+/* #6 Style the default paragraphs */
+p {
+    font-size: 24px;
+    padding: 10px top left; /*idk*/
+}
+
+/* #7 Style the default style for images */
+img{
+    width: 250px;
+    text-align: center;
+    border: 10px dashed white;
+}
+
+/* #8 Style the default div elements */
+div{
+    min-height: 125px;
+	padding: 20px;
+	border: 3px solid white;
+}
+
+/* #9 Style the introduction class*/
+.introduction{
+	border-radius: 15px;
+	margin-top: 15px;
+    line-height: 2;
+}
+
+/* #10 Style the red class*/
+.red{
+	background-color: #FF0000;
+    text-align: right;
+	margin-left: 50px;
+    border-top: 2px;
+    border-right: 5px;
+}
+
+/* #11 The blue div has the follwing styles*/
+.blue{
+	background-color: #0000FF;
+    text-align: left;
+	margin-right: 50px;
+    border-left: 5px;
+    border-bottom: 2px;
+    color: #C4C4C4; /*idk*/
+}
+
+/* #12 The yellow div has the follwing styles*/
+.yellow{
+	background-color: #FFFF00;
+    text-align: right;
+	margin-left: 50px;
+    border-right: 5px;
+    border-top: 2px;
+    color: #707070; /*idk*/
+}
+
+/* #13 The green div has the follwing styles*/
+.green{
+	background-color: #00D800;
+    text-align: left;
+	margin-right: 50px;
+    border-left: 5px;
+    border-bottom: 2px;
+}
+/* #14 Style the default footer elements*/
+footer {
+    background: rgb(0,25,70,0);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    /*background: linear-gradient(#000000, #0000ff 25%, #0066ff 70%, #000000);*/
+    border: 5px solid white;
+}
+
+/* #15 Style any paragraphs within the footer*/
+footer p {
+    text-align: right;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+
+}
+
+
+
