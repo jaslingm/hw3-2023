@@ -27,7 +27,8 @@ p {
 /* #7 Style the default style for images */
 img{
     width: 250px;
-    text-align: center;
+    margin: 0 auto;
+    display: block;
     border: 10px dashed white;
 }
 
@@ -50,8 +51,10 @@ div{
 	background-color: #FF0000;
     text-align: right;
 	margin-left: 50px;
-    border-top: 2px;
-    border-right: 5px;
+    border-bottom: solid 2px;
+    border-left: solid 5px;
+    border-right: 0px;
+    border-top: 0px;
 }
 
 /* #11 The blue div has the follwing styles*/
@@ -59,35 +62,46 @@ div{
 	background-color: #0000FF;
     text-align: left;
 	margin-right: 50px;
-    border-left: 5px;
-    border-bottom: 2px;
-    color: #C4C4C4; /*idk*/
+    border-right: solid 5px;
+    border-top: solid 2px;
+    border-left: 0px;
+    border-bottom: 0px;
+    color: #C4C4C4;
 }
 
-/* #12 The yellow div has the follwing styles*/
+.blue h2{
+    color: #C4C4C4;
+}
+
+/* #12 sThe yellow div has the follwing styles*/
 .yellow{
 	background-color: #FFFF00;
     text-align: right;
 	margin-left: 50px;
-    border-right: 5px;
-    border-top: 2px;
-    color: #707070; /*idk*/
+    border-bottom: solid 2px;
+    border-left: solid 5px;
+    border-right: 0px;
+    border-top: 0px;
+}
+
+.yellow p {
+    color: #707070;
 }
 
 /* #13 The green div has the follwing styles*/
 .green{
-	background-color: #00D800;
+	background-color: #008500;
     text-align: left;
 	margin-right: 50px;
-    border-left: 5px;
-    border-bottom: 2px;
+    border-right: solid 5px;
+    border-top: solid 2px;
+    border-left: 0px;
+    border-bottom: 0px;
 }
 /* #14 Style the default footer elements*/
 footer {
-    background: rgb(0,25,70,0);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    /*background: linear-gradient(#000000, #0000ff 25%, #0066ff 70%, #000000);*/
-    border: 5px solid white;
+    background: linear-gradient(90deg,#000000, #0000ff 25%, #0066ff 70%, #000000);
+    border: solid 5px white;
 }
 
 /* #15 Style any paragraphs within the footer*/
